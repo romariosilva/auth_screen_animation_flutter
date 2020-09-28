@@ -1,3 +1,4 @@
+import 'package:auth_screen_animation_flutter/screens/home/home_screen.dart';
 import 'package:auth_screen_animation_flutter/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginScreen(),
+      home: HomeScreen(),
     );
   }
 }
